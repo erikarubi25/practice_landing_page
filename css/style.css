@@ -1,0 +1,14 @@
+body {
+    padding-bottom: 20px;
+    /* background: linear-gradient(to bottom right, rgb(197, 35, 197) 0%, #fff 100%); */
+  }
+  .navbar {
+    margin-bottom: 20px;
+    background: linear-gradient(to bottom right, #4444ec 0%, #fff 100%);
+  }
+  .navbar-brand{
+    width: 80%;
+    height: 35px;
+    position: relative;
+  }
+
