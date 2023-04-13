@@ -4,11 +4,33 @@ body {
   }
   .navbar {
     margin-bottom: 20px;
-    background: linear-gradient(to bottom right, #4444ec 0%, #fff 100%);
+    background: linear-gradient(to bottom right, #d78aeb 0%, #fff 100%);
   }
   .navbar-brand{
     width: 80%;
     height: 35px;
     position: relative;
+    font-weight: 700;
+    font-size: 20px;
+    font-family:initial;
+    font-style: normal;
+    align-items: center;
+    color: #d63384;
   }
+  .carousel-item{
+    width: auto;
+    height: 550px;
+  }
+
+#carouselExample{
+    position: relative;
+    width: 80%;
+    height: 130px;
+    left: 50px;
+    top: 10px;
+}
+
+
+
+@media (min-width: 768px) and (max-width: 1199.98px) { }
 
