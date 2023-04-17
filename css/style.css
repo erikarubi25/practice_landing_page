@@ -23,6 +23,10 @@ main{
   background: linear-gradient(to bottom right, #cc80df 0%, #fff 100%)
 }
 
+.history .card-img{
+  opacity: 1;
+}
+
 
 
 
