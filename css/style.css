@@ -1,32 +1,140 @@
 body {
     padding-bottom: 20px;
     /* background: linear-gradient(to bottom right, rgb(197, 35, 197) 0%, #fff 100%); */
+    font-size: 16px;
+    position: relative;
   }
-.navbar {
-  margin-bottom: 20px;
-  background: linear-gradient(to bottom right, #d78aeb 0%, #fff 100%);
-}
+
 .navbar-brand{
-  color: #d63384;
-  width: 80%;
-  height: 35px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size:larger;
+
+}
+/* boton buscar nav */
+.d-flex .btn-outline-success{
+  color: #f81f9e;
+}
+
+
+/* Carruse recordar # id y . clases */
+
+#carouselExample{
+  margin-top: 10px;
+}
+.carousel-inner img{
+  height: 400px;
+}
+ /* Card */
+
+ .card-title{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+ }
+
+ /* conoce-historia */
+.history .card {
+  margin-top: 5px;
+  background-color: #f1e6e7;
+}
+
+/* servicios-comprometidos */
+#servicios{
+  align-items: flex-end;
+}
+
+
+/* Contacto-Otro Servicio */
+
+#contact_form{
+  position: absolute;
+  right: 0px;
+  top: 56px;
+  background: white;
+  width: 300px;
+
+  border-top: 1px solid black;
+  box-shadow: 0px 0px 3px #9f9e9e;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  height: 100vh;
+  z-index: 999;
+  display: none;
+}
+#contact_form #close_form{
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  left: 85%;
+  top: 190px;
+}
+#contact_form #close_form:hover{
+  cursor: pointer;
+}
+#contact_form #close_form:before{
+  font-family:'icomoon';
+  content: "\ea0f";
+  background: #f81f9e;
+  top: 5px;
+  left: 9px;
   position: relative;
-  font-weight: 700;
-  font-size: 20px;
-  font-family:initial;
-  font-style: normal;
-  align-items: center;
-
 }
-
-main{
-  background: linear-gradient(to bottom right, #cc80df 0%, #fff 100%)
+#contact_form figure{
+  height: 180px;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+  background: #f8d7da;
 }
-
-.history .card-img{
-  opacity: 1;
+#contact_form figure img{
+  height: 100%;
+  margin: 0px;
 }
-
+#contact_form p{
+  margin: 20px;
+  width: 90%;
+  margin-left: 5%;
+}
+#contact_form input,
+#contact_form textarea{
+  display: block;
+  margin: 20px;
+  border: none;
+  border-bottom: 2px solid gray;
+  width: 90%;
+  margin-left: 5%;
+  padding-bottom: 3px;
+  margin-bottom: 50px;
+  font-weight: bold;
+}
+#contact_form #button{
+  background: #f8d7da;
+  color: white;
+  border: none;
+  padding: 8px 0px;
+  border-radius: 5px;
+}
+#contact_button{
+  width: 60px;
+  height: 60px;
+  background: #f81f9e;
+  border-radius: 50%;
+  color: white;
+  z-index: 80;
+  right: 10px;
+  position: fixed;
+  top: 80vh;
+}
+#contact_button:hover{
+  cursor: pointer;
+}
+#contact_button:before{
+  font-family: 'icomoon';
+  content: "\ea95";
+  position: relative;
+  font-size: 3.5em;
+  top: -3px;
+  left: 6px;
+}
 
 
 
